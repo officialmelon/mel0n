@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+    display: block;
+}
+
+.centerflex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 35px;
+}
+
+.social {
+    color: white;
+    width: 65px;
+    height: 65px;
+    padding: 15px;
+}
+
+.roboto-mono-300 {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.text {
+    color: white;
+}
+
+.smallertext {
+    font-size: 20px;
+}
